@@ -43,7 +43,7 @@ Site administrators define activities for their users and can assign point value
 These instructions assume you have a basic understanding of configuring web servers and databases.
 
 ## Database
-After creating your database and granting permissions. Execute the sql/create-db.sql to create the DB schema. If you'd like to populate the DB with example activities, execute the sql/add-activities.sql file.
+After creating your database and granting permissions. Execute the sql/create-db.sql to create the DB schema. If you'd like to populate the DB with example activities, execute the sql/add-data.sql file.
 
 ## Website
 Installation is identical to the standard Codeigniter instructions followed by a few additional steps. Use the www/ folder as your standard Codeigniter root directory.
@@ -57,5 +57,7 @@ Edit the www/application/config/auth_ldap.php with the appropriate settings for 
 
 ### Additional
  Edit www/application/config/wellness.php with email addresses and other settings appropriate to your installation.
+ Set an encryption key in application/config/config.php line 229
+ 
  
 

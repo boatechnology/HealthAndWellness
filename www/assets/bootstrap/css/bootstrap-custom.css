@@ -1,0 +1,475 @@
+
+.centering {
+    float: none;
+    margin:0 auto;
+}
+
+.navbar {
+    min-height: 35px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    padding: .5em;
+    line-height: 9px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > span {
+        padding: 10px 15px;
+        line-height: 20px;
+    }
+}
+
+.btn-boa {
+  background-image: -webkit-linear-gradient(top, #adadad 0%, #c1c1c1 100%);
+  background-image: linear-gradient(to bottom, #adadad 0%, #c1c1c1 100%);
+  background-repeat: repeat-x;
+  border-color: #a1a1a1;
+  color: black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-boa:hover,
+.btn-boa:focus,
+.btn-boa.noactive:hover {
+  background-image: none;
+  color: black;
+  background-color: #FCC225;
+  cursor: pointer;
+}
+
+.btn-boa:active,
+.btn-boa.active {
+  background-color: #FCC225;
+  border-color: black;
+}
+
+.btn-boa.noactive,
+.btn-boa.noactive { 
+  background-image: -webkit-linear-gradient(top, #adadad 0%, #c1c1c1 100%);
+  background-image: linear-gradient(to bottom, #adadad 0%, #c1c1c1 100%);
+  background-repeat: repeat-x;
+  border-color: #a1a1a1;
+  font-weight: bold;
+}
+
+.top-spacer {
+    margin-top: .8em;
+}
+
+.dropdown-menu { 
+    background-color: #c1c1c1;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+  background-color: #3c3c3c;
+  outline: 0;
+}
+
+select.form-control,
+input.form-control,
+textarea.form-control {
+    background-image: -webkit-linear-gradient(top, #adadad 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to bottom, #adadad 0%, #c1c1c1 100%);
+    background-repeat: repeat-x;
+    border-color: #a1a1a1;
+    color: black;
+}
+
+select.lighter {
+    border: none;
+    
+}
+
+select.form-control:focus {
+    background-image: -webkit-linear-gradient(top, #adadad 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to bottom, #adadad 0%, #c1c1c1 100%);
+    background-repeat: repeat-x;
+    background-color: #c1c1c1;
+}
+
+.form-control,
+.selectize-input input {
+    color: black;
+    font-weight: bold;
+}
+
+.popover {
+    color: black;
+}
+
+.btn-group > .last:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+input,
+form {
+    max-width: 100%;
+    padding: 1em;
+}
+
+.modal-title,
+.modal-body {
+    color: #222222;        
+}
+
+.picker__nav--prev, 
+.picker__nav--next {
+    height: 1.75em;
+}
+/*
+.ui-widget-content a {
+    color: black;
+}
+*/
+.editable:link,
+.editable:hover,
+.editable:active {
+    
+    cursor: pointer;
+    
+}
+
+.editable-click,
+a.editable-click,
+a.editable-click:hover {
+    border-bottom: none;
+    //text-decoration: underline;
+}
+
+.editable-click.editable-disabled, 
+a.editable-click.editable-disabled, 
+a.editable-click.editable-disabled:hover {
+    color: #f1f1f1;
+}
+/*
+.editable-click:link,
+.editable-click:hover,
+.editable-click:active {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FCC225;
+    border-color: black;
+    color: black;
+}
+*/
+.popover-title {
+    background-image: -webkit-linear-gradient(top, #adadad 0%, #c1c1c1 100%);
+    background-image: linear-gradient(to bottom, #adadad 0%, #c1c1c1 100%);
+    background-repeat: repeat-x;
+    border-color: #a1a1a1;
+    color: black;
+}
+
+
+.table thead.boa th {
+  text-align: center;
+  color: #FCC225;
+}
+
+tbody.boa {
+  background-color: #3c3c3c;
+  color: #f1f1f1;
+}
+
+.boa .table tbody a.editable {
+    
+}
+
+.boa .table > thead > tr > th,
+.boa .table > thead > tr > td,
+.boa .table > thead > tr,
+.boa .table thead {
+    border: none;
+}
+
+.boa .table > tbody > tr > th,
+.boa .table > tfoot > tr > th,
+.boa .table > tbody > tr > td,
+.boa .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  text-align: center;
+  border-top: 1px solid #a1a1a1;
+}
+
+.boa .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #a1a1a1;
+  background-color: transparent;
+}
+
+.boa .table > caption + thead > tr:first-child > th,
+.boa .table > colgroup + thead > tr:first-child > th,
+.boa .table > thead:first-child > tr:first-child > th,
+.boa .table > caption + thead > tr:first-child > td,
+.boa .table > colgroup + thead > tr:first-child > td,
+.boa .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.boa .table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.boa .table-condensed > thead > tr > th,
+.boa .table-condensed > tbody > tr > th,
+.boa .table-condensed > tfoot > tr > th,
+.boa .table-condensed > thead > tr > td,
+.boa .table-condensed > tbody > tr > td,
+.boa .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+
+.boa .table-bordered {
+  border: none;
+}
+
+.boa .table-bordered tbody {
+  border: 1px solid #4c4c4c;
+}
+
+.boa .table-bordered > tbody > tr > th,
+.boa .table-bordered > tfoot > tr > th,
+.boa .table-bordered > thead > tr > td,
+.boa .table-bordered > tbody > tr > td,
+.boa .table-bordered > tfoot > tr > td {
+  border: 1px solid #4c4c4c;
+}
+
+.boa table.mytable .table-bordered > tbody > tr > th,
+.boa table.mytable .table-bordered > thead > tr > td,
+.boa table.mytable .table-bordered > tbody > tr > td,
+.boa table.mytable .table-bordered > tfoot > tr > td {
+  border: 0px;
+}
+
+.boa .table-bordered > thead > tr > th,
+.boa .table-bordered > thead > tr > td {
+  border-bottom-width: 1px;
+}
+
+.boa .table-striped > tbody > tr:nth-child(odd) > td,
+.boa .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #222222;
+}
+
+.boa .table-striped > tbody > tr:nth-child(odd):hover > td,
+.boa .table-striped > tbody > tr:nth-child(odd):hover > th {
+  background-color: #222222;
+}
+
+.boa .table-hover > tbody > tr:hover > td {
+  //background-color: #000;
+  background-color: inherit;
+}
+
+.boa .table-hover > tbody > tr:hover > th {
+  background-color: inherit;
+}
+
+.boa table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+
+.boa table td[class*="col-"],
+.boa table th[class*="col-"] {
+  display: table-cell;
+  float: none;
+}
+
+.boa .table > thead > tr > .active,
+.boa .table > tbody > tr > .active,
+.boa .table > tfoot > tr > .active,
+.boa .table > thead > .active > td,
+.boa .table > tbody > .active > td,
+.boa .table > tfoot > .active > td,
+.boa .table > thead > .active > th,
+.boa .table > tbody > .active > th,
+.boa .table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+
+.boa .table-hover > tbody > tr > .active:hover,
+.boa .table-hover > tbody > .active:hover > td,
+.boa .table-hover > tbody > .active:hover > th {
+  background-color: #e8e8e8;
+}
+
+.boa .table > thead > tr > .success,
+.boa .table > tbody > tr > .success,
+.boa .table > tfoot > tr > .success,
+.boa .table > thead > .success > td,
+.boa .table > tbody > .success > td,
+.boa .table > tfoot > .success > td,
+.boa .table > thead > .success > th,
+.boa .table > tbody > .success > th,
+.boa .table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+
+.boa .table-hover > tbody > tr > .success:hover,
+.boa .table-hover > tbody > .success:hover > td,
+.boa .table-hover > tbody > .success:hover > th {
+  background-color: #d0e9c6;
+}
+
+.boa .table > thead > tr > .danger,
+.boa .table > tbody > tr > .danger,
+.boa .table > tfoot > tr > .danger,
+.boa .table > thead > .danger > td,
+.boa .table > tbody > .danger > td,
+.boa .table > tfoot > .danger > td,
+.boa .table > thead > .danger > th,
+.boa .table > tbody > .danger > th,
+.boa .table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+
+.boa .table-hover > tbody > tr > .danger:hover,
+.boa .table-hover > tbody > .danger:hover > td,
+.boa .table-hover > tbody > .danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.boa .table > thead > tr > .warning,
+.boa .table > tbody > tr > .warning,
+.boa .table > tfoot > tr > .warning,
+.boa .table > thead > .warning > td,
+.boa .table > tbody > .warning > td,
+.boa .table > tfoot > .warning > td,
+.boa .table > thead > .warning > th,
+.boa .table > tbody > .warning > th,
+.boa .table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+
+.boa .table-hover > tbody > tr > .warning:hover,
+.boa .table-hover > tbody > .warning:hover > td,
+.boa .table-hover > tbody > .warning:hover > th {
+  background-color: #faf2cc;
+}
+
+.icon-arrow-left:before {
+  content: "\e091";
+  
+}
+
+.icon-arrow-right:before {
+  content: "\e091";
+  
+}
+
+table.mytable thead > tr > th {
+    color: #FCC225;
+    text-align: center;
+    font-size: .7em;
+}
+
+table.mytable tbody tr {
+    color: #dddddd;
+    font-size: 1em;
+}
+/*
+table.mytable tbody {
+    background-color: #1c1c1c;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+*/
+table.mytable tbody tr:hover td  {
+    background-color: grey;
+    color: white;
+    
+}
+
+table.mytable tr.you {
+    background-color: #FCC225;
+    color: black;
+}
+
+
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .form-inline .form-control {
+    display: inline-block;
+  }
+  .form-inline select.form-control {
+    width: auto;
+  }
+  .form-inline .radio,
+  .form-inline .checkbox {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+  
+  .form-inline input,
+  .form-inline button,
+  .form-inline .selectize-input {
+      margin-left: 3%;
+  }
+  .form-inline #factor-txt {
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  
+  @-moz-document url-prefix() {
+    .form-inline .selectize-control {
+          position: relative;
+          top: 3px;
+      }
+  }
+  
+  #accordion .panel {
+      margin-top: 1px;
+  }
+  #accordion .panel {
+    background-color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  }
+  
+#accordion .panel-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #adadad;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#accordion .panel-body {
+    background: #1C1C1C;
+    border: none;
+}
+  

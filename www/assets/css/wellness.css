@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    background:#000 url('/assets/pics/background.png') no-repeat 0 0;
+    background-size: 100% auto;
+    color: white;
+}
+a, img {
+    border:none;
+}
+
+.my-textfield {
+    font: inherit;
+    color: 1c1c1c;
+    padding-right: 3px;
+    text-align: inherit;
+    outline: none;
+    cursor: text;
+}
+
+textarea.left {
+    text-align: left;
+}
+.white {
+    color: #ccc;
+}
+
+.highlight {
+    color: #555;
+    font-weight: bold;
+}
+a:hover {
+    color: #FCC225;   
+}
+a.button:hover {
+    color: #212121;
+}
+a, p, .white {
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: #FCC225;
+}
+
+
+
+span.you {
+    color: white;
+}
+.yellow,
+a.yellow {
+    color: #FCC225;
+}
+span.red {
+    color: red;
+}
+
+.onload-show {
+    display: none;
+}
+
+.box {
+    background-color: #1c1c1c;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FCC225;
+    border:1px solid black;
+    border-radius:15px;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.box p,
+.indent {
+    padding-left: 1em;
+    padding-right: .5em;
+}
+#middle {
+    min-height: 465px;
+}
+
+#goals-main {
+    display: inline-block;
+    width: 80%;
+    margin: 10px auto 0px 5%;
+    padding: 0 2em 2em 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FCC225;
+    border:1px solid black;
+    border-radius:15px;
+}
+
+#user-content {
+    display: inline-block;
+    width: 15%;
+    margin: 25px 40% 0px 40%;
+    padding: 0 2em 2em 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FCC225;
+    border:1px solid black;
+    border-radius:15px;
+}
